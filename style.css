@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(#80d5e8,#aff097,#e6e87b,#c45858,#cf7ceb);
+    margin:0;    
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-repeat: no-repeat;
+}
+h1{
+    text-shadow:2px 2px #2c2e2d;
+    font-size: 20px;
+}
+#hobbydescription{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+#img1{
+    height: 500px;
+    width: 500px;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    z-index: 100;
+    cursor: pointer;
+}
+.links{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: darkmagenta;
+}
+.links:hover{
+    font-size: 26px;
+    color: darkred;
+    text-decoration: underline;
+    font-weight: 300;
+}
+html{
+    scroll-behavior: smooth;
+}
+#imgbg{
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;    
+}
+#imgbg:hover{
+    transform: scale(0.9);
+}
+#contact iframe{
+    width: 100%;
+}
+#contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:cadetblue
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contact a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color:azure;
+}
+#games {
+    background-color: cadetblue;
+}
